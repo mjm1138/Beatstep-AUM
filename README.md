@@ -9,7 +9,7 @@ You need:
 
 The file AUMCC.beatstep is a preset file. It can be imported into Arturia MIDI Control Center and applied to a memory location on your Beatstep. I use location 16.
 
-The file 8_Tracks_Audio_BS is an AUM session file (which is an Apple binary plist file). You can use plutil in macOS to examine the contents of the file. Place this file in your iCloud drive, and use the Files app to move it in to the AUM folder on your iOS/iPadOS device.
+The file 8_Tracks_Audio_BS.aumproj is an AUM session file (which is an Apple binary plist file). You can use plutil in macOS to examine the contents of the file. Place this file in your iCloud drive, and use the Files app to move it in to the AUM folder on your iOS/iPadOS device.
 
 I suggest using the AUM session file as a template (i.e. immediately save it to a new name before beginning work). You should be able to remove unused audio tracks without affecting mapping, but if you add a track back, you'll have to manually re-map it in the "Midi Control" menu of AUM.
 
